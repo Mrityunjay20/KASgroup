@@ -12,40 +12,37 @@ import { Button } from "flowbite-react";
 
 export default function FooterBlock() {
   return (
-    <div className="bg-blue-950">
-      <div className="flex flex-col md:flex-row md:items-center -bottom-5 bg-blue-950">
+    <div className="bg-[#012D61]">
+      <div className="flex flex-col md:flex-row md:items-center -bottom-5 bg-[#012D61]">
         {/* Left Div (Text) */}
         <div className="md:w-1/2 px-4 my-12 py-8 md:py-0 ml-6">
-          <h2 className="text-2xl md:text-4xl font-bold mb-4">Left Div Text</h2>
-          <p className="text-white">Hello this is sample text.</p>
+          <p className="text-white">Our vision is to consistently offer the highest standards of quality scientific services through the perfect amalgamation of insights and evidence.</p>
         </div>
 
         {/* Right Div (Image Link) */}
         <div className="md:w-1/4 ml-auto my-4">
-          <Button color="success">Blue hello</Button>
+          <Button color="success">Join Us</Button>
         </div>
       </div>
-      <Footer bgDark>
+      <Footer className="bg-[#040b47]">
         <div className="w-full">
           <div className="flex w-1/2 mx-auto my-5 rounded-md flex-col md:flex-row md:items-center -bottom-5 bg-orange-400">
             {/* Left Div (Text) */}
             <div className="md:w-1/2 px-4 my-12 py-8 md:py-0 ml-6">
-              <h2 className="text-2xl md:text-4xl font-bold mb-4">
-                Left Div Text
-              </h2>
-              <p className="text-white">Hello this is sample text.</p>
+              
+              <p className="text-white">We make it easy for patients around the world to get care from Mayo Clinic.</p>
             </div>
 
             {/* Right Div (Image Link) */}
             <div className="md:w-1/4 ml-auto my-4">
-              <Button color="success">Blue hello</Button>
+              <Button color="white" className=" border-2 bg-transparent border-white hover:border-1 hover:border-black duration-300 hover:bg-white hover:text-black">Contact us</Button>
             </div>
           </div>
 
           <div className="grid w-full grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4 rounded-none">
             <div>
-              <Footer.Title title="Company" />
-              <Footer.LinkGroup col>
+              <Footer.Title className="text-white"  title="Company" />
+              <Footer.LinkGroup className="text-white"  col>
                 <Footer.Link href="#">About</Footer.Link>
                 <Footer.Link href="#">Careers</Footer.Link>
                 <Footer.Link href="#">Brand Center</Footer.Link>
@@ -53,8 +50,8 @@ export default function FooterBlock() {
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="help center" />
-              <Footer.LinkGroup col>
+              <Footer.Title className="text-white"  title="help center" />
+              <Footer.LinkGroup className="text-white"  col>
                 <Footer.Link href="#">Discord Server</Footer.Link>
                 <Footer.Link href="#">Twitter</Footer.Link>
                 <Footer.Link href="#">Facebook</Footer.Link>
@@ -62,31 +59,31 @@ export default function FooterBlock() {
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="legal" />
+              <Footer.Title className="text-white"  title="legal" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Privacy Policy</Footer.Link>
-                <Footer.Link href="#">Licensing</Footer.Link>
-                <Footer.Link href="#">Terms &amp; Conditions</Footer.Link>
+                <Footer.Link className="text-white"   href="#">Privacy Policy</Footer.Link>
+                <Footer.Link className="text-white"  href="#">Licensing</Footer.Link>
+                <Footer.Link className="text-white"  href="#">Terms &amp; Conditions</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="download" />
+              <Footer.Title className="text-white"  title="download" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">iOS</Footer.Link>
-                <Footer.Link href="#">Android</Footer.Link>
-                <Footer.Link href="#">Windows</Footer.Link>
-                <Footer.Link href="#">MacOS</Footer.Link>
+                <Footer.Link className="text-white"  href="#">iOS</Footer.Link>
+                <Footer.Link className="text-white"  href="#">Android</Footer.Link>
+                <Footer.Link className="text-white"  href="#">Windows</Footer.Link>
+                <Footer.Link className="text-white"  href="#">MacOS</Footer.Link>
               </Footer.LinkGroup>
             </div>
           </div>
-          <div className="w-full bg-gray-700 px-4 py-6 sm:flex sm:items-center sm:justify-between">
-            <Footer.Copyright href="#" by="Flowbite™" year={2022} />
+          <div className="w-full bg-black px-4 py-6 sm:flex sm:items-center sm:justify-between">
+            <Footer.Copyright className="text-white" href="#" by="Iniseria" year={2024} />
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-              <Footer.Icon href="#" icon={BsFacebook} />
-              <Footer.Icon href="#" icon={BsInstagram} />
-              <Footer.Icon href="#" icon={BsTwitter} />
-              <Footer.Icon href="#" icon={BsGithub} />
-              <Footer.Icon href="#" icon={BsDribbble} />
+              <Footer.Icon className="text-white" href="#" icon={BsFacebook} />
+              <Footer.Icon className="text-white"  href="#" icon={BsInstagram} />
+              <Footer.Icon className="text-white"  href="#" icon={BsTwitter} />
+              <Footer.Icon className="text-white"  href="#" icon={BsGithub} />
+              <Footer.Icon className="text-white"  href="#" icon={BsDribbble} />
             </div>
           </div>
         </div>

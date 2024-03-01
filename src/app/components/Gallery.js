@@ -17,6 +17,9 @@ export default function Gallery() {
                     Photo booth fam kinfolk cold-pressed sriracha leggings
                     jianbing microdosing tousled waistcoat.
                   </p>
+                  <button className="inline-flex text-white bg-[#fc9b4c] border-2 border-[#EE7015] py-1 px-3 -ml-1 -mb-2 mt-2 focus:outline-none hover:bg-[#EE7015] rounded-full text-base">
+                Explore all locations
+              </button>
                 </div>
               </div>
             </div>
@@ -38,6 +41,9 @@ export default function Gallery() {
                     Photo booth fam kinfolk cold-pressed sriracha leggings
                     jianbing microdosing tousled waistcoat.
                   </p>
+                  <button className="inline-flex text-white bg-[#fc9b4c] border-2 border-[#EE7015] py-1 px-3 -ml-1 -mb-2 mt-2 focus:outline-none hover:bg-[#EE7015] rounded-full text-base">
+                Explore all locations
+              </button>
                 </div>
               </div>
             </div>
@@ -56,10 +62,14 @@ export default function Gallery() {
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     The 400 Blows
                   </h1>
+                  
                   <p className="leading-relaxed">
                     Photo booth fam kinfolk cold-pressed sriracha leggings
                     jianbing microdosing tousled waistcoat.
                   </p>
+                  <button className="inline-flex text-white bg-[#fc9b4c] border-2 border-[#EE7015] py-1 px-3 -ml-1 -mb-2 mt-2 focus:outline-none hover:bg-[#EE7015] rounded-full text-base">
+                Explore all locations
+              </button>
                 </div>
               </div>
             </div>

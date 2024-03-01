@@ -1,4 +1,3 @@
-import { Button, Carousel } from 'flowbite-react';
 import BottomComponent from './components/BottomComponent';
 import CarouselComponent from './components/CarouselComponent';
 import Datablocks from './components/DataBlocks';

@@ -13,13 +13,13 @@ export default function NavbarComponent() {
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Navbar.Link as={Link} className="text-base"  href="#" active>Home</Navbar.Link>
+        <Navbar.Link as={Link} className="text-base"  href="/" active>Home</Navbar.Link>
         <Navbar.Link as={Link} className="text-base"  href="#">About Us</Navbar.Link>
         <Navbar.Link as={Link} className="text-base"  href="#">Publications</Navbar.Link>
         <Navbar.Link as={Link} className="text-base"  href="#">Events</Navbar.Link>
         <Navbar.Link as={Link} className="text-base"  href="#">Services</Navbar.Link>
         <Navbar.Link as={Link} className="text-base"  href="#">Careers</Navbar.Link>
-        <Navbar.Link as={Link} className="text-base"  href="#">Contact Us</Navbar.Link>
+        <Navbar.Link as={Link} className="text-base"  href="Contactus">Contact Us</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
     </>
