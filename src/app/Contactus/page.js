@@ -1,4 +1,5 @@
 import { Button } from "flowbite-react";
+import FooterBlock from "../components/FooterBloc";
 
 export default function Page({ params }) {
   return (
@@ -10,8 +11,7 @@ export default function Page({ params }) {
               Contact Us
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify.
+              this is dummy text.
             </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -94,9 +94,9 @@ export default function Page({ params }) {
                 <a className="ml-4 text-gray-500">
                   <svg
                     fill="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-5 h-5"
                     viewBox="0 0 24 24"
                   >
@@ -107,9 +107,9 @@ export default function Page({ params }) {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-5 h-5"
                     viewBox="0 0 24 24"
                   >
@@ -127,9 +127,9 @@ export default function Page({ params }) {
                 <a className="ml-4 text-gray-500">
                   <svg
                     fill="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-5 h-5"
                     viewBox="0 0 24 24"
                   >
@@ -141,6 +141,7 @@ export default function Page({ params }) {
           </div>
         </div>
       </section>
+      <FooterBlock/>
     </div>
   );
 }
